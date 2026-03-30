@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Marvel&display=swap');
+
+
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Marvel', sans-serif;
+}
+
+.container {
+  height:100vh;
+  display: flex;
+}
+
+.logo img {   
+  width:140px;
+  display: block;
+  position: absolute;
+  left: 3%;
+  top: 5%;
+  border-radius: 10px;
+}
+
+.button {
+  display: block;
+  position: absolute;
+  left: 2.5%;
+  top: 85%;
+  height: 3rem;
+  padding-top: 0.8rem;
+  width: 9rem;
+  text-align: center;
+  color: rgb(192, 189, 197);
+  border: rgb(198, 205, 212) solid 0.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all .5s;
+  flex-grow:1; 
+  border-radius:10px;
+}
+
+.container a:hover {
+	background: #5D1451;
+  color: #fff !important;
+}
+
+.social a {
+	color:#d2ec5d;
+	text-decoration: none;
+  padding:10px;
+  font-size: 25px;
+  display: inline-block;
+  text-align: justify;
+}
+
+section {
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex:1;
+  transition: all .5s;
+}
+
+/* Configuracion de la Efectos secciones */
+.Rock:hover {
+  flex:2;
+}
+
+.Indie:hover {
+  flex:2;
+}
+
+.Jazz:hover {
+  flex:2;
+}
+
+.Metal:hover {
+  flex:2;
+}
+
+.Soundtrack:hover {
+  flex:2;
+}
+
+/* Configuracion de la Secciones */
+section h1 {
+  background:rgba(0,0,0,0.6);
+  color:white;
+  padding: 12px 32px;
+}
+
+.Banner{
+  background:url('../img/colorful.jpg') #003f5c;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.Rock{
+  background:url('../img/guitar.JPG') #5D1451;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+
+.Indie{
+  background:url('../img/micro.JPG') #030b55;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.Jazz{
+  background:url('../img/saxo.jpg') #09b9ffa2;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.Metal{
+  background:url('../img/goth.jpg') #751606;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+
+.Soundtrack{
+  background:url('../img/classic.JPG') #857c04;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+/* Configuracion de la Seccion de Footer */
+footer {
+	background:#23273b;
+	width: 100%;
+  padding:10px;
+  color:#fff;
+  font-size: 16px;
+  
+	/* Insercion de Flexbox */
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
